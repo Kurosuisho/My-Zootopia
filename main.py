@@ -16,10 +16,12 @@ def main():
             diet = animal["characteristics"]["diet"]
             animal_type = animal["characteristics"]["type"]
             locations = animal["locations"][0]
-            output += f"Name: {name}\n"
-            output += f"Diet: {diet}\n"
-            output += f"Location: {locations}\n"
-            output += f"Type: {animal_type}\n"
+            output += '<li class="cards__item">'
+            output += f"Name: {name}<br/>\n"
+            output += f"Diet: {diet}<br/>\n"
+            output += f"Location: {locations}<br/>\n"
+            output += f"Type: {animal_type}<br/>\n"
+            output += '</li>'
 
     with open("animals_template.html", "r") as html_file:
         html_content = html_file.read()
