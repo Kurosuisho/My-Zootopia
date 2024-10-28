@@ -1,5 +1,6 @@
 Packages that need to be installed for the code to work:
 
 
-os
-requests
+os library
+requests library
+dotenv package
