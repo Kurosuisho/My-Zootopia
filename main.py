@@ -1,3 +1,4 @@
+
 import os
 from data_fetcher import fetch_data
 from animals_web_generator import generate_html
